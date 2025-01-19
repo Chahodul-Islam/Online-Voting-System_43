@@ -1,0 +1,25 @@
+.result-container {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #121212;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+}
+
+.result-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.result-card h3 {
+  margin: 0;
+}
+
+.result-card p {
+  margin: 5px 0;
+}

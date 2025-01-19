@@ -1,0 +1,88 @@
+/* src/components/Navbar/Navbar.css */
+.navbar {
+  background-color: black;
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+  background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+  border-radius: 0px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar ul li a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+  transform: translateY(-3px);
+}
+
+.navbar .button-container {
+  display: flex;
+  background-color: black;
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.navbar .button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.navbar .button:hover {
+  transform: translateY(-3px);
+}
+
+.navbar .icon {
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: #ddd;
+}
+
+@keyframes moveLeftCenter {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
